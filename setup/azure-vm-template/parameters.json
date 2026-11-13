@@ -126,7 +126,7 @@
             "value": "devsecops"
         },
         "adminPassword": {
-            "value": null
+            "value": "DevSecOps@123"
         }
     }
 }
