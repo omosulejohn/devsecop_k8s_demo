@@ -76,7 +76,7 @@
             "value": "Static"
         },
         "publicIpAddressSku": {
-            "value": "Basic"
+            "value": "Standard"
         },
         "virtualMachineName": {
             "value": "devsecops-cloud"
@@ -109,9 +109,9 @@
             "value": [
                 {
                     "name": "devsecops-cloud_DataDisk_0",
-                    "sku": "StandardSSD_LRS",
+                    "sku": "Standard_LRS",
                     "properties": {
-                        "diskSizeGB": 512,
+                        "diskSizeGB": 128,
                         "creationData": {
                             "createOption": "empty"
                         }
@@ -120,7 +120,7 @@
             ]
         },
         "virtualMachineSize": {
-            "value": "Standard_D4s_v3"
+            "value": "Standard_D2s_v3"
         },
         "adminUsername": {
             "value": "devsecops"
